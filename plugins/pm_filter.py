@@ -275,7 +275,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         hr = await client.get_chat(int(group_id))
 
-        title = hr.title
+        title = hr.title hello
         user_id = query.from_user.id
 
         mkinact = await make_inactive(str(user_id))
